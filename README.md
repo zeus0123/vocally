@@ -2,11 +2,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, need the dependencies so run,
+```
+yarn install
+```
+Second Create a .env.local file in the root of the project and add your 
+```
+MONGODB_URI = 
+```
 
-```bash
-npm run dev
-# or
+Third, run the development server:
+
+```
 yarn dev
 ```
 
