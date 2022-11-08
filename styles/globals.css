@@ -19,6 +19,31 @@ hr {
   border-top: #909398;
 }
 
+.image-container {
+  width: 100%;
+  height: 74vh;
+  position: relative;
+}
+
+.image-container-2 {
+  width: 35vw;
+  height: 74vh;
+  position: relative;
+}
+.image-container .image {
+  width: 100%;
+  height: 100%;
+  position: relative !important;
+  object-fit: contain; 
+}
+
+.image-container-2 .image {
+  width: 100%;
+  height: 100%;
+  position: relative !important;
+  object-fit: contain; 
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

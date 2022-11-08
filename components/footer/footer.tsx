@@ -12,9 +12,9 @@ function Footer() {
       margin="0 auto"
     >
       <Grid width="100%" display="flex" justifyContent="space-between">
-        <Grid width="70%" style={{ fontWeight: 'bold' }} fontSize='24px'>OPENAUTO</Grid>
-        <Grid width="30%" display="flex" justifyContent="space-between">
-          <Grid item xs={2}>
+        <Grid xs={12} sm={12} md={6} width="70%" style={{ fontWeight: 'bold' }} fontSize='24px'>OPENAUTO</Grid>
+        <Grid xs={12} sm={12} md={6} width="30%" display="flex" justifyContent="space-between">
+          <Grid item xs={12}>
             <FaPhoneAlt />
             &nbsp;
             <span>+769 586 4558</span>

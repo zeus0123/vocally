@@ -5,6 +5,12 @@ export const HeroTitle = styled(Grid)`
   color: #fff;
   font-size: 45px;
   font-weight: bold;
+
+
+  .MuiGrid-root {
+    flex-grow: 1;
+  }
+
 `;
 
 export const HeroSubTitle = styled(Grid)`

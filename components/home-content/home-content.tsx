@@ -68,8 +68,8 @@ const HomeContent = () => {
     })
   }
   return (
-    <Grid container pt="4rem">
-      <HeroTitle>
+    <Grid width="100%" xs sm container pt="4rem">
+      <HeroTitle width="100%">
         Vechicle Maintenance <br /> From The Comfort of <br /> Your Home
       </HeroTitle>
       <HeroSubTitle>
